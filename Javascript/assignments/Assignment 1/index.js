@@ -1,7 +1,7 @@
-// Question no. 1 : Add two Numbers 
+//No. 1 :  Add two numbers
 
-let A = 5;
-let B = 10;
+let A = 12;
+let B = 16;
 
 function AddTwoNumbers(A, B) {
     return A + B;
@@ -9,32 +9,33 @@ function AddTwoNumbers(A, B) {
 
 console.log(AddTwoNumbers(A, B)); 
 
-// question 2 : Find if the conditions are obeyed or not? 
+// #######################################
 
-let c = 5;
-let d = 3;
+// No. 2 : 
 
-function Is_Valid(c, d) {
+let A1 = 4;
+let A2 = 6;
+
+function Is_Valid(A1, A2) {
     
-    return (c < 10 && c > d);
+    return (A1 < 10 && A1 > A2);
 }
-console.log(Is_Valid(c, d)); 
+console.log(Is_Valid(A1, A2)); 
 
+// ###########################################
 
+//  No.3 : 
 
-
-// question 3 : Check the conditions 
-
-let e = 20;
-let f = 30;
+let c = 20;
+let d = 40;
 
 function CheckDivisibility(e, f) {
     
-    if (e % 10 === 0 && f % 10 === 0) {
+    if (c % 10 === 0 && d % 10 === 0) {
         console.log(true);
     }
     
-    else if (e % 10 !== 0 && f % 10 !== 0) {
+    else if (c % 10 !== 0 && d % 10 !== 0) {
         console.log(false);
     }
 
@@ -45,30 +46,32 @@ function CheckDivisibility(e, f) {
 
 CheckDivisibility();
 
+// ###############################################
 
-// Question 4 : .Find the first digit of a 4 digit number
+// No. 4 : TO print first digit of number
 
-let N = 4567;
+let X = 4567;
 
-function First_Digit(N) {
+function First_Digit(X) {
     
-    let firstDigit = Math.floor(N / 1000);
+    let firstDigit = Math.floor(X / 1000);
     
     
     console.log(firstDigit);
 }
 
 
-First_Digit(N); 
+First_Digit(X); 
 
+// ###############################################
 
-// Question 5 : Find the last digit of a 4 digit number
+// No. 5 : last digi of  4 digi number
 
-let G = 4567;
+let Y= 4567;
 
 function Last_Digit() {
 
-    let lastDigit = G % 10;
+    let lastDigit = Y % 10;
     
     
     console.log(lastDigit);
@@ -77,11 +80,12 @@ function Last_Digit() {
 
 Last_Digit(); 
 
+// ############################################
 
-// Question 6 : .Find the remainder
+// No. 6 : finding remainder
 
-let a = 3;
-let b = 10;
+let a = 5;
+let b = 9;
 
 function Find_the_remainder(a, b) {
     
@@ -94,42 +98,58 @@ function Find_the_remainder(a, b) {
 
 Find_the_remainder(a, b); 
 
+// ###############################################
 
-// Question 7: Multiply two Numbers
+//  No. 7: mutiplication
 
-let j = 5;
-let k = 10;
+let P = 25;
+let Q = 50;
 
-function Multiply_two_number(j, k) {
-    let product = j * k;
+function Multiply_two_number(P, Q) {
+    let product = P * Q;
     
     console.log(product);
 }
 
 
-Multiply_two_number(j, k); 
+Multiply_two_number(P, Q); 
+
+// ############################################3
+
+// No. 8:  calculating marks
+
+let x = 75;
+let y = 80;
+let z = 85;
+
+function Sum(x, y, z) {
+    return x + y + z;
+}
+
+function Average(x, y, z) {
+
+    return Sum(x, y, z) / 3;
+}
+
+console.log("Total Marks:", Sum(x, y, z));       
+console.log("Average Marks:", Average(x, y, z));  
 
 
 
-// Question 8:  Marks Calculator
 
-
-let m = 85;
-let n = 90;
-let o = 80;
-
-function Sum(m, n, o) {
     
-    return m + n + o;
-}
 
-function Average(m, n, o) {
+    
+   
+    
+    
 
-    return Sum(m, n, o) / 3;
-}
 
-console.log("Total Marks:", Sum(m, n, o));       
-console.log("Average Marks:", Average(m, n, o));  
+
+
+
+
+   
 
 
 
