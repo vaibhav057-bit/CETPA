@@ -137,6 +137,19 @@ console.log("Average Marks:", Average(x, y, z));
 
 
 
+  
+
+
+  
+
+
+
+
+
+
+
+
+
     
 
     
